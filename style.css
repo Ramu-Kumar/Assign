@@ -1,0 +1,614 @@
+:root {
+  --smartBlue: #391487;
+  --smartOrange: #ff7200;
+  --smartGold: #f4c005;
+  --smartWhite: #ffff;
+  --smartGray: #f3f3f3;
+  --smartBorder: #c4c4c4;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  width: 100%;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 13px 3px var(--smartBlue);
+  padding: 1% 5%;
+}
+.signup_button {
+  padding: 8px 15px;
+  border-radius: 18px;
+  background: var(--smartBlue);
+  border: none;
+  outline: 0;
+  color: white;
+  font-size: 18px;
+}
+.display-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.display-icon{
+  color: var(--smartBlue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.display-icon i{
+  color: var(--smartOrange);
+}
+.header h1 {
+  margin: 2rem;
+  font-size: 40px;
+  color: var(--smartBlue);
+}
+.header h6 {
+  font-size: 25px;
+}
+
+.header button {
+  padding: 8px 35px;
+  border-radius: 5px;
+  background: var(--smartBlue);
+  border: none;
+  outline: 0;
+  color: white;
+  font-size: 18px;
+}
+section {
+  width: 100%;
+}
+.count-numbers{
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+.count-numbers div:nth-child(1) {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 22px;
+  border: 2px solid var(--smartBorder);
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  color: var(--smartOrange);
+  cursor: pointer;
+}
+.count-numbers input:nth-child(2) {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 22px;
+  border: 2px solid var(--smartBorder);
+  margin: 10px;
+  width: 60px;
+  height: 40px;
+}
+.count-numbers div:nth-child(3) {
+  padding: 10px;
+  display: flex;
+  cursor: pointer;
+  color: var(--smartOrange);
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 22px;
+  border: 2px solid var(--smartBorder);
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+}
+.display-vert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gold_plan-head {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+}
+.gold_quantity {
+  font-size: 1.5rem;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  letter-spacing: 3px;
+  margin: 20px 0px;
+}
+.gold_quantity span {
+  font-size: 3.1rem;
+  color: black;
+  opacity: 1;
+  font-weight: bold;
+}
+.submit_button{
+  font-size: 1.2rem;
+  padding: 10px 40px;
+  background: var(--smartBlue);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: var(--smartWhite);
+  margin:20px 30px;
+}
+
+.gold_plan {
+  margin:30px 0px;
+  width: 100%;
+  border: 3px solid var(--smartBorder);
+  border-radius: 20px;
+  background: var(--smartWhite);
+}
+.plan_box {
+  background: white;
+  cursor: pointer;
+  border: 3px solid gray;
+}
+
+.gold_mark {
+  padding: 10px 20px;
+  background: var(--smartGold);
+  font-size: 1rem;
+  border-radius: 20px;
+  margin: 15px;
+  font-weight: bold;
+  color: var(--smartWhite);
+}
+.plan_box {
+  position: relative;
+  padding: 20px 7px;
+  width: 30rem;
+  height: 20rem;
+  background: #fff;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  border: 3px solid gray;
+}
+.plan_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select_duration{
+  color:var(--smartBlue);
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 10px;
+}
+
+.gold_plan_header{
+  padding: 3%;
+}
+
+.dashbord_content{
+  width: 100%;
+}
+.content_title{
+  width: 100%;
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ques_para{
+  font-size: 2.3rem;
+  margin: 20px 0px;
+}
+.header_form{
+  width: 100%;
+  padding: 3%;
+  background: var(--smartGray);
+}
+.brand{
+  width: 100%;
+  padding: 3%;
+  background: var(--smartWhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.brand p{
+  font-size: 1.5rem;
+}
+
+.brand_button{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px;
+}
+.brand_button button:nth-child(1){
+ padding:10px 30px;
+ width: 50%;
+ font-size: 1.4rem;
+ border: none;
+ outline: none;
+ background: var(--smartOrange);
+ border: 1px solid var(--smartOrange);
+ color: var(--smartWhite);
+ border-bottom-left-radius: 8px;
+ border-top-left-radius: 8px;
+}
+.brand_button button:nth-child(2){
+  padding:10px 30px;
+  width: 50%;
+  font-size: 1.4rem;
+  border: 1px solid var(--smartBorder);
+  outline: none;
+  background: var(--smartWhite);
+  color: var(--smartBlue);
+  border-bottom-right-radius: 8px;
+ border-top-right-radius: 8px;
+ }
+
+.content_title h1{
+  font-size: 4rem;
+  color: var(--smartBlue);
+}
+.content_title h6{
+  font-size: 1.5rem;
+  margin: 15px 0px;
+}
+
+.steper_form{
+  margin: 60px 0px;
+  width: 100%;
+  padding: 20px 20%;
+  display: grid;
+  grid-template-columns: 40px auto auto 40px auto auto 40px;
+}
+.step{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--smartWhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--smartBorder);
+  position: relative;
+}
+
+.step_active {
+  background: var(--smartWhite);
+  border: 1px solid var(--smartOrange);
+}
+.step_active1 {
+  background: var(--smartOrange) !important;
+}
+
+.step div{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #cccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  
+}
+
+.step1{
+     
+     margin-top: 20px;
+     width: 100%;
+     height: 3px;
+     top: 50%;
+     background: #ccc;
+    
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ 
+} 
+
+.step_active .step1::after{
+  background: var(--smartOrange);
+}
+.step_active .step2::after{
+  background: var(--smartOrange);
+}
+.step_active .step2::before{
+  background: var(--smartOrange);
+}
+.step_active .step3::before{
+  background: var(--smartOrange);
+}
+/* .step2::after{
+  content: "";
+  position: absolute;
+  width: 145px;
+  height: 3px;
+  left: 33px;
+  background: #cccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+.step2::before{
+  content: "";
+  position: absolute;
+  width: 155px;
+  height: 3px;
+  right:33px;
+  background: #cccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+} */
+/* .step3::before{
+  content: "";
+  position: absolute;
+  width: 155px;
+  height: 3px;
+  right:33px;
+  background: #cccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+} */
+
+.steper_form .step_active div{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--smartOrange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--smartWhite);
+}
+
+
+
+.plan_select_button{
+  background: var(--smartWhite);
+  padding: 3%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.plan_select_button p{
+  font-size: 1.5rem;
+}
+.plan_select_button button{
+  width: 45%;
+  font-size: 1.5rem;
+  padding: 10px 30px;
+  background: var(--smartBlue);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: var(--smartWhite);
+  margin:30px 0px;
+}
+
+.plan_box div:nth-child(3) {
+  background: var(--smartOrange);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  font-size: 25px;
+}
+.plan_box p:nth-child(1) {
+  font-size: 30px;
+}
+.plan_box p:nth-child(2) {
+  margin: 40px 0px;
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--smartBlue);
+}
+
+.plan_box .hide {
+  display: none;
+}
+.plan_box_selected .plan_selected {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: var(--smartOrange);
+}
+
+.plan_box_selected {
+  background: var(--smartOrange);
+  border: 3px solid orangered;
+}
+
+.plan_box_selected p:nth-child(2) {
+  color: white;
+}
+
+.plan_box_selected div:nth-child(3) {
+  background: white;
+  color: var(--smartOrange);
+}
+
+.option2_select_plan,
+.option1_select_plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--smartGray);
+  padding: 2% 5%;
+}
+
+.select_notify {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  width: 88%;
+  text-align: center;
+  margin: 20px 0px;
+}
+.select_notify1 {
+  font-size: 3rem;
+  width: 95%;
+  text-align: center;
+  margin: 20px 0px;
+}
+.range-box {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--smartOrange);
+  border-radius: 15px;
+  margin: 30px 0px;
+}
+
+.range_button {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--smartOrange);
+  margin: 10px;
+  width: 31%;
+  font-size: 30px;
+  color: var(--smartWhite);
+  border: none;
+  outline: none;
+}
+
+.range_button_selected {
+  background: var(--smartWhite);
+  color: var(--smartOrange);
+}
+
+.range_button:nth-child(3) {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.range_button:nth-child(1) {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.offer_detail {
+  border: 3px solid var(--smartBorder);
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  width: 100%;
+  border-radius: 20px;
+  margin: 40px 0px;
+  background: var(--smartWhite);
+}
+
+.offer_box {
+  width: 65%;
+}
+.offer_head {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--smartOrange);
+}
+.offer_quantity {
+  font-size: 1.5rem;
+  margin: 20px 0px;
+  opacity: 0.7;
+}
+.offer_quantity span {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+}
+.offer_description {
+  font-size: 1.8rem;
+  margin: 20px 0px;
+  opacity: 0.7;
+}
+.offer_tag {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background: var(--smartGold);
+  font-size: 1.6rem;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: var(--smartWhite);
+  letter-spacing: 0.2rem;
+}
+.offer_tag i {
+  font-size: 1.6rem;
+  margin: 0px 10px;
+}
+.amount_box {
+  width: 35%;
+}
+.amount_box p {
+  width: 100%;
+  font-size: 4rem;
+  text-align: center;
+  margin: 25px auto;
+}
+.amount_box button {
+  font-size: 1.5rem;
+  padding: 8px 15px;
+  background: var(--smartBlue);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: var(--smartWhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.page {
+  padding: 10px 20px;
+  font-size: 27px;
+  background: var(--smartOrange);
+  color: var(--smartWhite);
+  border-radius: 12px;
+}
+
+.plan_content{
+  width: 100%;
+  background: var(--smartGray);
+  padding: 3%;
+}

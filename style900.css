@@ -1,0 +1,247 @@
+
+@media only screen and (max-width: 900px) {
+    .nav-bar {
+      padding: 1% 5%;
+    }
+    .signup_button {
+      padding: 6px 12px;
+      border-radius: 15px;
+      font-size: 15px;
+    }
+    
+    .header button {
+      padding: 6px 30px;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+    section {
+      width: 100%;
+    }
+    .count-numbers{
+      margin: 22px;
+    }
+    .count-numbers div:nth-child(1) {
+      padding: 9px;
+      border-radius: 8px;
+      font-size: 20px;
+      margin: 9px;
+      width: 35px;
+      height:35px;
+    }
+    .count-numbers input:nth-child(2) {
+      padding: 9px;
+      border-radius: 8px;
+      font-size: 20px;
+      margin: 9px;
+      width: 50px;
+      height: 35px;
+    }
+    .count-numbers div:nth-child(3) {
+      padding: 9px;
+      border-radius: 8px;
+      font-size: 20px;
+      margin: 9px;
+      width: 35px;
+      height: 35px;
+    }
+    .gold_plan-head {
+      font-size: 1.5rem;
+    }
+    .gold_quantity {
+      font-size: 1.0rem;
+      opacity: 0.7;
+      letter-spacing: 1px;
+      margin: 15px 0px;
+    }
+    .gold_quantity span {
+      font-size: 2.4rem;
+    }
+    .submit_button{
+      font-size: 1.0rem;
+      padding: 7px 30px;
+      border-radius: 8px;
+      margin:13px 22px;
+    }
+    
+    .gold_plan {
+      margin:22px 0px;
+      border-radius: 18px;
+    }
+    
+    .gold_mark {
+      padding: 8px 17px;
+      font-size: 1rem;
+      border-radius: 17px;
+      margin: 13px;
+    }
+    .plan_box {
+      padding: 8px 6px;
+      width: 23rem;
+      height: 12rem;
+      margin: 8px;
+      border-radius: 15px;
+    }
+    .select_duration{
+      font-size: 1.5rem;
+      margin: 17px 9px;
+    }
+    
+    .ques_para{
+      font-size: 2.0rem;
+      margin: 17px 0px;
+    }
+
+    .brand p{
+      font-size: 1.1rem;
+    }
+    
+    .brand_button{
+      width: 80%;
+      margin: 35px 0px;
+    }
+    .brand_button button:nth-child(1){
+     padding:8px 25px;
+     width: 50%;
+     font-size: 1.1rem;
+     border-bottom-left-radius: 8px;
+     border-top-left-radius: 8px;
+    }
+    .brand_button button:nth-child(2){
+      padding:8px 25px;
+      width: 50%;
+      font-size: 1.1rem;
+      border-bottom-right-radius: 8px;
+     border-top-right-radius: 8px;
+     }
+    
+    .content_title h1{
+      font-size: 2.8rem;
+    }
+    .content_title h6{
+      font-size: 1.0rem;
+      margin: 13px 0px;
+    }
+    .steper_form{
+        margin: 50px 0px;
+      }
+    .plan_select_button{
+      padding: 3%;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .plan_select_button p{
+      font-size: 1.2rem;
+    }
+    .plan_select_button button{
+      width: 45%;
+      font-size: 1.2rem;
+      padding: 10px 25px;
+      border-radius: 8px;
+      margin:30px 0px;
+    }
+    
+    .plan_box div:nth-child(3) {
+      width: 100%;
+      padding: 5px 5px;
+      font-size: 20px;
+    }
+    .plan_box p:nth-child(1) {
+      font-size: 25px;
+    }
+    .plan_box p:nth-child(2) {
+      margin: 30px 0px;
+      font-size: 27px;
+    }
+    .plan_box_selected .plan_selected {
+      right: 9px;
+      top: 9px;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+    }
+          
+    .select_notify {
+      font-size: 2.0rem;
+      letter-spacing:0px;
+      margin: 17px 0px;
+    }
+    .select_notify1 {
+      font-size: 2rem;
+      margin: 16px 0px;
+    }
+    .range-box {
+      width: 80%;
+      border-radius: 14px;
+      margin: 22px 0px;
+    }
+    
+    .range_button {
+      padding: 10px 15px;
+      margin: 8px;
+      width: 31%;
+      font-size: 22px;
+    }
+  
+    
+    .range_button:nth-child(3) {
+      border-bottom-right-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+    .range_button:nth-child(1) {
+      border-bottom-left-radius: 15px;
+      border-top-left-radius: 15px;
+    }
+    
+    .offer_detail {
+      padding: 25px;
+      border-radius: 16px;
+      margin: 35px 0px;
+    }
+    
+    .offer_box {
+      width: 65%;
+    }
+    .offer_head {
+      font-size: 2.2rem;
+    }
+    .offer_quantity {
+      font-size: 1.2rem;
+      margin: 17px 0px;
+      opacity: 0.7;
+    }
+    .offer_quantity span {
+      font-size: 2.1rem;
+    }
+    .offer_description {
+      font-size: 1.2rem;
+      margin: 17px 0px;
+      opacity: 0.7;
+    }
+    .offer_tag {
+      margin: 8px 0px;
+      font-size: 1.2rem;
+      padding: 8px 10px;
+      border-radius: 22px;
+    }
+    .offer_tag i {
+      font-size: 1.2rem;
+      margin: 0px 8px;
+    }
+    .amount_box {
+      width: 35%;
+    }
+    .amount_box p {
+      font-size: 2.5rem;
+      margin: 18px auto;
+    }
+    .amount_box button {
+      font-size: 1.1rem;
+      padding: 7px 13px;
+      border-radius: 7px;
+    }
+    .page {
+      padding: 8px 17px;
+      font-size: 20px;
+      border-radius: 10px;
+    }
+}
